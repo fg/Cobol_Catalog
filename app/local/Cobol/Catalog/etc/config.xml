@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <Cobol_Catalog>
+        <version>0.0.1</version>
+    </Cobol_Catalog>
+    <global>
+        <helpers>
+            <catalog>
+                <rewrite>
+                    <product>Cobol_Catalog_Helper_Product</product>
+                </rewrite>
+            </catalog>
+        </helpers>
+        <models>
+            <catalog>
+                <rewrite>
+                    <url>Cobol_Catalog_Model_Url</url>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+    <default>
+        <catalog>
+            <seo_extra>
+                <product_url_prefix>product/</product_url_prefix>
+            </seo_extra>
+        </catalog>
+    </default>
+</config>

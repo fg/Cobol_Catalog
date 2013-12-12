@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <catalog translate="label" module="catalog">
+            <groups>
+                <seo_extra translate="label">
+                    <label>Catalog Url Config</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>999</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <product_url_prefix translate="label comment">
+                            <label>Product URL Prefix</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA["Use Categories Path for Product URLs" option should be false]]></comment>
+                        </product_url_prefix>
+                    </fields>
+                </seo_extra>
+            </groups>
+        </catalog>
+    </sections>
+</config>
